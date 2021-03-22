@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3006;
 // Set static folder
 app.use(express.static(path.join(__dirname, 'public')))
 
-const bootName = 'Cavendish';
+const bootName = 'You have Joined at ';
 
 // Run when client connects
 io.on('connection', socket => {
