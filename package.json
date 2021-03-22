@@ -1,0 +1,18 @@
+{
+  "name": "chat-room",
+  "version": "1.0.0",
+  "description": "A chat web-based application created using HTML, CSS socket.io and Javascript",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index ",
+    "dev": "nodemon"
+  },
+  "author": "Godwin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^4.0.0"
+  }
+}
